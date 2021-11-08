@@ -1,17 +1,32 @@
 import UIKit
 
 class ViewController: UIViewController {
-    // TODO: https://stackoverflow.com/questions/24805180/swift-put-multiple-iboutlets-in-an-array
     @IBOutlet weak var button1: UIButton!
     @IBOutlet weak var button2: UIButton!
     @IBOutlet weak var button3: UIButton!
-
-    var buttons = [UIButton]()
 
     var countries = [
         "estonia", "france", "germany", "ireland", "italy", "monaco", "nigeria",
         "poland", "russia", "spain", "uk", "us"
     ]
+
+    let hints = [
+        "estonia": "Vanilla Ninja",
+        "france" : "baguette",
+        "germany": "Rammstein",
+        "ireland": "Braveheart",
+        "italy"  : "Luca Turilli",
+        "monaco" : "Napoleon Museum",
+        "nigeria": "Things Fall Apart",
+        "poland" : "lelelelele",
+        "russia" : "dancing man",
+        "spain"  : "nobody expects",
+        "uk"     : "tea",
+        "us"     : "FREEDOM"
+    ]
+
+    var buttons = [UIButton]()
+
     var correctAnswer = 0
     var score = 0
 
@@ -27,14 +42,18 @@ class ViewController: UIViewController {
         })
 
         correctAnswer = Int.random(in: 0 ... 2)
-        title = countries[correctAnswer].uppercased()
+        //title = countries[correctAnswer].uppercased()
+        let hint = hints[countries[correctAnswer]] ?? "something is wrong"
+
+        title = "Hint: \(hint)"
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        buttons = [button1, button2, button3]
 
         title = "Guess the FREEDOM flag"
+        buttons = [button1, button2, button3]
+
         buttons.forEach({ button in
             button.layer.cornerRadius = 4
             button.layer.borderWidth = 1
