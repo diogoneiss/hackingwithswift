@@ -26,23 +26,6 @@
 		0E0BF1B72739710A00C0992C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0BF1B62739710A00C0992C /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		0E0BF1852739434700C0992C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0E0BF1662739434500C0992C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0E0BF16D2739434500C0992C;
-			remoteInfo = "Storm Viewer";
-		};
-		0E0BF18F2739434700C0992C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0E0BF1662739434500C0992C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0E0BF16D2739434500C0992C;
-			remoteInfo = "Storm Viewer";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		0E0BF16E2739434500C0992C /* Social Media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Media.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E0BF1712739434500C0992C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,8 +35,6 @@
 		0E0BF17A2739434700C0992C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E0BF17D2739434700C0992C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E0BF17F2739434700C0992C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E0BF1842739434700C0992C /* Social MediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Social MediaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E0BF18E2739434700C0992C /* Social MediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Social MediaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E0BF1A2273949B000C0992C /* nssl0049.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0049.jpg; sourceTree = "<group>"; };
 		0E0BF1A3273949B000C0992C /* nssl0046.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0046.jpg; sourceTree = "<group>"; };
 		0E0BF1A4273949B000C0992C /* nssl0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0091.jpg; sourceTree = "<group>"; };
@@ -75,20 +56,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0E0BF1812739434700C0992C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0E0BF18B2739434700C0992C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -104,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				0E0BF16E2739434500C0992C /* Social Media.app */,
-				0E0BF1842739434700C0992C /* Social MediaTests.xctest */,
-				0E0BF18E2739434700C0992C /* Social MediaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,42 +128,6 @@
 			productReference = 0E0BF16E2739434500C0992C /* Social Media.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0E0BF1832739434700C0992C /* Social MediaTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0E0BF19B2739434700C0992C /* Build configuration list for PBXNativeTarget "Social MediaTests" */;
-			buildPhases = (
-				0E0BF1802739434700C0992C /* Sources */,
-				0E0BF1812739434700C0992C /* Frameworks */,
-				0E0BF1822739434700C0992C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0E0BF1862739434700C0992C /* PBXTargetDependency */,
-			);
-			name = "Social MediaTests";
-			productName = "Storm ViewerTests";
-			productReference = 0E0BF1842739434700C0992C /* Social MediaTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		0E0BF18D2739434700C0992C /* Social MediaUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0E0BF19E2739434700C0992C /* Build configuration list for PBXNativeTarget "Social MediaUITests" */;
-			buildPhases = (
-				0E0BF18A2739434700C0992C /* Sources */,
-				0E0BF18B2739434700C0992C /* Frameworks */,
-				0E0BF18C2739434700C0992C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0E0BF1902739434700C0992C /* PBXTargetDependency */,
-			);
-			name = "Social MediaUITests";
-			productName = "Storm ViewerUITests";
-			productReference = 0E0BF18E2739434700C0992C /* Social MediaUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,14 +140,6 @@
 				TargetAttributes = {
 					0E0BF16D2739434500C0992C = {
 						CreatedOnToolsVersion = 13.1;
-					};
-					0E0BF1832739434700C0992C = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 0E0BF16D2739434500C0992C;
-					};
-					0E0BF18D2739434700C0992C = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 0E0BF16D2739434500C0992C;
 					};
 				};
 			};
@@ -236,8 +157,6 @@
 			projectRoot = "";
 			targets = (
 				0E0BF16D2739434500C0992C /* Social Media */,
-				0E0BF1832739434700C0992C /* Social MediaTests */,
-				0E0BF18D2739434700C0992C /* Social MediaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,20 +182,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0E0BF1822739434700C0992C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0E0BF18C2739434700C0992C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -291,34 +196,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0E0BF1802739434700C0992C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0E0BF18A2739434700C0992C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0E0BF1862739434700C0992C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0E0BF16D2739434500C0992C /* Social Media */;
-			targetProxy = 0E0BF1852739434700C0992C /* PBXContainerItemProxy */;
-		};
-		0E0BF1902739434700C0992C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0E0BF16D2739434500C0992C /* Social Media */;
-			targetProxy = 0E0BF18F2739434700C0992C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0E0BF1772739434500C0992C /* Main.storyboard */ = {
@@ -464,7 +342,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Storm Viewer/Info.plist";
+				INFOPLIST_FILE = "Social Media/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -475,7 +353,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Storm-Viewer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Social-Media";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -491,7 +369,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Storm Viewer/Info.plist";
+				INFOPLIST_FILE = "Social Media/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -502,103 +380,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Storm-Viewer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Social-Media";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		0E0BF19C2739434700C0992C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Storm-ViewerTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Social Media.app/Social Media";
-			};
-			name = Debug;
-		};
-		0E0BF19D2739434700C0992C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Storm-ViewerTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Social Media.app/Social Media";
-			};
-			name = Release;
-		};
-		0E0BF19F2739434700C0992C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Storm-ViewerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Storm Viewer";
-			};
-			name = Debug;
-		};
-		0E0BF1A02739434700C0992C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Storm-ViewerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Storm Viewer";
 			};
 			name = Release;
 		};
@@ -619,24 +405,6 @@
 			buildConfigurations = (
 				0E0BF1992739434700C0992C /* Debug */,
 				0E0BF19A2739434700C0992C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0E0BF19B2739434700C0992C /* Build configuration list for PBXNativeTarget "Social MediaTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0E0BF19C2739434700C0992C /* Debug */,
-				0E0BF19D2739434700C0992C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0E0BF19E2739434700C0992C /* Build configuration list for PBXNativeTarget "Social MediaUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0E0BF19F2739434700C0992C /* Debug */,
-				0E0BF1A02739434700C0992C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

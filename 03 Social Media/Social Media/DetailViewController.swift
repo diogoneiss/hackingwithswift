@@ -17,6 +17,7 @@ class DetailViewController: UIViewController {
         //title = "Picture \(imageIndex + 1) of \(totalim)"
         title = imageTitle
         navigationItem.largeTitleDisplayMode = .never
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
 
         guard let selectedImage = selectedImage else { return }
         imageView.image = UIImage(named: selectedImage)
@@ -30,5 +31,16 @@ class DetailViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         navigationController?.hidesBarsOnTap = false
+    }
+
+    @objc func shareTapped() {
+        guard let image = imageView.image?.jpegData(compressionQuality: 0.8) else {
+            print("No image found")
+            return
+        }
+
+        let viewController = UIActivityViewController(activityItems: [image], applicationActivities: [])
+        viewController.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+        present(viewController, animated: true)
     }
 }
