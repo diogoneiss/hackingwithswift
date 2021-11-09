@@ -13,6 +13,7 @@
 		0E94ED1B273AE84C00841DBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E94ED19273AE84C00841DBE /* Main.storyboard */; };
 		0E94ED1D273AE84E00841DBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E94ED1C273AE84E00841DBE /* Assets.xcassets */; };
 		0E94ED20273AE84E00841DBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E94ED1E273AE84E00841DBE /* LaunchScreen.storyboard */; };
+		0E94ED2B273B0C7A00841DBE /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E94ED2A273B0C7A00841DBE /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0E94ED1C273AE84E00841DBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E94ED1F273AE84E00841DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E94ED21273AE84E00841DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E94ED2A273B0C7A00841DBE /* start.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		0E94ED12273AE84C00841DBE /* 05 Word Scramble */ = {
 			isa = PBXGroup;
 			children = (
-				0E94ED13273AE84C00841DBE /* AppDelegate.swift */,
-				0E94ED15273AE84C00841DBE /* SceneDelegate.swift */,
-				0E94ED17273AE84C00841DBE /* ViewController.swift */,
-				0E94ED19273AE84C00841DBE /* Main.storyboard */,
+				0E94ED2C273B0CA100841DBE /* res */,
+				0E94ED28273AF05E00841DBE /* src */,
+				0E94ED29273AF07C00841DBE /* storyboards */,
 				0E94ED1C273AE84E00841DBE /* Assets.xcassets */,
-				0E94ED1E273AE84E00841DBE /* LaunchScreen.storyboard */,
 				0E94ED21273AE84E00841DBE /* Info.plist */,
 			);
 			path = "05 Word Scramble";
+			sourceTree = "<group>";
+		};
+		0E94ED28273AF05E00841DBE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0E94ED13273AE84C00841DBE /* AppDelegate.swift */,
+				0E94ED15273AE84C00841DBE /* SceneDelegate.swift */,
+				0E94ED17273AE84C00841DBE /* ViewController.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		0E94ED29273AF07C00841DBE /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0E94ED19273AE84C00841DBE /* Main.storyboard */,
+				0E94ED1E273AE84E00841DBE /* LaunchScreen.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		0E94ED2C273B0CA100841DBE /* res */ = {
+			isa = PBXGroup;
+			children = (
+				0E94ED2A273B0C7A00841DBE /* start.txt */,
+			);
+			path = res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E94ED20273AE84E00841DBE /* LaunchScreen.storyboard in Resources */,
+				0E94ED2B273B0C7A00841DBE /* start.txt in Resources */,
 				0E94ED1D273AE84E00841DBE /* Assets.xcassets in Resources */,
 				0E94ED1B273AE84C00841DBE /* Main.storyboard in Resources */,
 			);
