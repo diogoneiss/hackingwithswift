@@ -33,9 +33,13 @@ class ViewController: UIViewController, WKNavigationDelegate {
         progressView.sizeToFit()
 
         toolbarItems = [
+            UIBarButtonItem(barButtonSystemItem: .rewind, target: webView, action: #selector(webView.goBack)),
             UIBarButtonItem(customView: progressView),
+
             UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil),
+
             UIBarButtonItem(barButtonSystemItem: .refresh, target: webView, action: #selector(webView.reload)),
+            UIBarButtonItem(barButtonSystemItem: .fastForward, target: webView, action: #selector(webView.goForward)),
         ]
         navigationController?.isToolbarHidden = false
     }
@@ -44,6 +48,32 @@ class ViewController: UIViewController, WKNavigationDelegate {
         if keyPath == "estimatedProgress" {
             progressView.progress = Float(webView.estimatedProgress)
         }
+    }
+
+    func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
+        var decision: WKNavigationActionPolicy = .cancel
+        defer { decisionHandler(decision) }
+
+        guard let requestedHost: String = navigationAction.request.url?.host else {
+            return
+        }
+
+        for allowedHost in websites.values {
+            if allowedHost.contains(requestedHost) {
+                decision = .allow
+                break
+            }
+        }
+
+        if decision == .cancel {
+            😱(requestedHost)
+        }
+    }
+
+    func 😱(_ host: String) {
+        let alertController = UIAlertController(title: "Blocked URL", message: "\"\(host)\" is not in the allow list", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "k", style: .default, handler: nil))
+        present(alertController, animated: true)
     }
 
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
