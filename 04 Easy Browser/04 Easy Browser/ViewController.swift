@@ -11,6 +11,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
     ]
 
     var webView: WKWebView!
+    var progressView: UIProgressView!
 
     override func loadView() {
         webView = WKWebView()
@@ -24,8 +25,25 @@ class ViewController: UIViewController, WKNavigationDelegate {
         let url = URL(string: "https://ziglang.org")!
         webView.load(URLRequest(url: url))
         webView.allowsBackForwardNavigationGestures = true
+        webView.addObserver(self, forKeyPath: #keyPath(WKWebView.estimatedProgress), options: .new, context: nil)
 
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Open", style: .plain, target: self, action: #selector(openTapped))
+
+        progressView = UIProgressView(progressViewStyle: .default)
+        progressView.sizeToFit()
+
+        toolbarItems = [
+            UIBarButtonItem(customView: progressView),
+            UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil),
+            UIBarButtonItem(barButtonSystemItem: .refresh, target: webView, action: #selector(webView.reload)),
+        ]
+        navigationController?.isToolbarHidden = false
+    }
+
+    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+        if keyPath == "estimatedProgress" {
+            progressView.progress = Float(webView.estimatedProgress)
+        }
     }
 
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
