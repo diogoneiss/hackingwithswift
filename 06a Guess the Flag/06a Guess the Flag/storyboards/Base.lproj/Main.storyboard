@@ -11,13 +11,16 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_2_Guess_the_Flag" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_6_Guess_the_Flag" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Kr-84-6r9">
                                 <rect key="frame" x="95" y="113" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="3Kr-84-6r9" secondAttribute="height" multiplier="112:57" id="fZH-Rw-SlV"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
                                 <connections>
@@ -25,7 +28,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcA-2Y-gSv">
-                                <rect key="frame" x="95" y="253" width="224" height="114"/>
+                                <rect key="frame" x="95" y="247" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fcA-2Y-gSv" secondAttribute="height" multiplier="112:57" id="M5t-Yv-ael"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
                                 <connections>
@@ -33,7 +39,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Cu-3y-lRP">
-                                <rect key="frame" x="95" y="416" width="224" height="114"/>
+                                <rect key="frame" x="95" y="381" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="3Cu-3y-lRP" secondAttribute="height" multiplier="112:57" id="U9B-oN-QEP"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
                                 <connections>
@@ -44,12 +53,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="3Kr-84-6r9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="8JJ-LG-roK"/>
-                            <constraint firstItem="3Cu-3y-lRP" firstAttribute="centerX" secondItem="fcA-2Y-gSv" secondAttribute="centerX" id="8Mp-fA-WjM"/>
-                            <constraint firstItem="fcA-2Y-gSv" firstAttribute="centerX" secondItem="3Kr-84-6r9" secondAttribute="centerX" id="Hzp-tl-cwT"/>
-                            <constraint firstItem="3Kr-84-6r9" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Kkd-e9-cSV"/>
-                            <constraint firstItem="fcA-2Y-gSv" firstAttribute="top" secondItem="3Kr-84-6r9" secondAttribute="bottom" constant="26" id="Tpf-N6-vFQ"/>
-                            <constraint firstItem="3Cu-3y-lRP" firstAttribute="top" secondItem="fcA-2Y-gSv" secondAttribute="bottom" constant="49" id="auM-xX-jkE"/>
+                            <constraint firstItem="fcA-2Y-gSv" firstAttribute="top" secondItem="3Kr-84-6r9" secondAttribute="bottom" constant="20" id="ERd-ek-gGt"/>
+                            <constraint firstItem="3Cu-3y-lRP" firstAttribute="centerX" secondItem="fcA-2Y-gSv" secondAttribute="centerX" id="Ema-We-0Nf"/>
+                            <constraint firstItem="3Kr-84-6r9" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="X4s-lJ-oQS"/>
+                            <constraint firstItem="fcA-2Y-gSv" firstAttribute="height" secondItem="3Kr-84-6r9" secondAttribute="height" id="di3-4q-fIb"/>
+                            <constraint firstItem="fcA-2Y-gSv" firstAttribute="centerX" secondItem="3Kr-84-6r9" secondAttribute="centerX" id="ghl-Fx-fBw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="3Cu-3y-lRP" secondAttribute="bottom" constant="20" id="ihl-ZY-5WH"/>
+                            <constraint firstItem="3Cu-3y-lRP" firstAttribute="top" secondItem="fcA-2Y-gSv" secondAttribute="bottom" constant="20" id="mbY-Kd-9PF"/>
+                            <constraint firstItem="3Cu-3y-lRP" firstAttribute="height" secondItem="fcA-2Y-gSv" secondAttribute="height" id="xlW-1T-83A"/>
+                            <constraint firstItem="3Kr-84-6r9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="z0y-Gn-F4V"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="bU9-C0-iqf"/>

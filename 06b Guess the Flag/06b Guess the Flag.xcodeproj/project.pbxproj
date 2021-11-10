@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E0D72B927398A0D0097F2F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0D72B827398A0D0097F2F9 /* AppDelegate.swift */; };
-		0E0D72BB27398A0D0097F2F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0D72BA27398A0D0097F2F9 /* SceneDelegate.swift */; };
-		0E0D72BD27398A0D0097F2F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0D72BC27398A0D0097F2F9 /* ViewController.swift */; };
-		0E0D72C027398A0D0097F2F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0D72BE27398A0D0097F2F9 /* Main.storyboard */; };
-		0E0D72C227398A0F0097F2F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0D72C127398A0F0097F2F9 /* Assets.xcassets */; };
-		0E0D72C527398A0F0097F2F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0D72C327398A0F0097F2F9 /* LaunchScreen.storyboard */; };
+		0EB0A3C7273C5F2D00603D98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB0A3C6273C5F2D00603D98 /* AppDelegate.swift */; };
+		0EB0A3C9273C5F2D00603D98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB0A3C8273C5F2D00603D98 /* SceneDelegate.swift */; };
+		0EB0A3CB273C5F2D00603D98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB0A3CA273C5F2D00603D98 /* ViewController.swift */; };
+		0EB0A3CE273C5F2D00603D98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0A3CC273C5F2D00603D98 /* Main.storyboard */; };
+		0EB0A3D0273C5F2F00603D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0A3CF273C5F2F00603D98 /* Assets.xcassets */; };
+		0EB0A3D3273C5F2F00603D98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0A3D1273C5F2F00603D98 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E0D72B527398A0D0097F2F9 /* 06 Guess the Flag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "06 Guess the Flag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E0D72B827398A0D0097F2F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0E0D72BA27398A0D0097F2F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0E0D72BC27398A0D0097F2F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0E0D72BF27398A0D0097F2F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0E0D72C127398A0F0097F2F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0E0D72C427398A0F0097F2F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0E0D72C627398A0F0097F2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EB0A3C3273C5F2D00603D98 /* 06b Guess the Flag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "06b Guess the Flag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EB0A3C6273C5F2D00603D98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EB0A3C8273C5F2D00603D98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0EB0A3CA273C5F2D00603D98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EB0A3CD273C5F2D00603D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EB0A3CF273C5F2F00603D98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EB0A3D2273C5F2F00603D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EB0A3D4273C5F2F00603D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0E0D72B227398A0D0097F2F9 /* Frameworks */ = {
+		0EB0A3C0273C5F2D00603D98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,88 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E0D72AC27398A0D0097F2F9 = {
+		0EB0A3BA273C5F2D00603D98 = {
 			isa = PBXGroup;
 			children = (
-				0E0D72B727398A0D0097F2F9 /* 06 Guess the Flag */,
-				0E0D72B627398A0D0097F2F9 /* Products */,
+				0EB0A3C5273C5F2D00603D98 /* 06b Guess the Flag */,
+				0EB0A3C4273C5F2D00603D98 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0E0D72B627398A0D0097F2F9 /* Products */ = {
+		0EB0A3C4273C5F2D00603D98 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0E0D72B527398A0D0097F2F9 /* 06 Guess the Flag.app */,
+				0EB0A3C3273C5F2D00603D98 /* 06b Guess the Flag.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0E0D72B727398A0D0097F2F9 /* 06 Guess the Flag */ = {
+		0EB0A3C5273C5F2D00603D98 /* 06b Guess the Flag */ = {
 			isa = PBXGroup;
 			children = (
-				0EB0A3B8273C360D00603D98 /* src */,
-				0EB0A3B9273C361800603D98 /* storyboards */,
-				0E0D72C127398A0F0097F2F9 /* Assets.xcassets */,
-				0E0D72C627398A0F0097F2F9 /* Info.plist */,
+				0EB0A3C6273C5F2D00603D98 /* AppDelegate.swift */,
+				0EB0A3C8273C5F2D00603D98 /* SceneDelegate.swift */,
+				0EB0A3CA273C5F2D00603D98 /* ViewController.swift */,
+				0EB0A3CC273C5F2D00603D98 /* Main.storyboard */,
+				0EB0A3CF273C5F2F00603D98 /* Assets.xcassets */,
+				0EB0A3D1273C5F2F00603D98 /* LaunchScreen.storyboard */,
+				0EB0A3D4273C5F2F00603D98 /* Info.plist */,
 			);
-			path = "06 Guess the Flag";
-			sourceTree = "<group>";
-		};
-		0EB0A3B8273C360D00603D98 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				0E0D72B827398A0D0097F2F9 /* AppDelegate.swift */,
-				0E0D72BA27398A0D0097F2F9 /* SceneDelegate.swift */,
-				0E0D72BC27398A0D0097F2F9 /* ViewController.swift */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		0EB0A3B9273C361800603D98 /* storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				0E0D72BE27398A0D0097F2F9 /* Main.storyboard */,
-				0E0D72C327398A0F0097F2F9 /* LaunchScreen.storyboard */,
-			);
-			path = storyboards;
+			path = "06b Guess the Flag";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0E0D72B427398A0D0097F2F9 /* 06 Guess the Flag */ = {
+		0EB0A3C2273C5F2D00603D98 /* 06b Guess the Flag */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0E0D72DF27398A0F0097F2F9 /* Build configuration list for PBXNativeTarget "06 Guess the Flag" */;
+			buildConfigurationList = 0EB0A3D7273C5F2F00603D98 /* Build configuration list for PBXNativeTarget "06b Guess the Flag" */;
 			buildPhases = (
-				0E0D72B127398A0D0097F2F9 /* Sources */,
-				0E0D72B227398A0D0097F2F9 /* Frameworks */,
-				0E0D72B327398A0D0097F2F9 /* Resources */,
+				0EB0A3BF273C5F2D00603D98 /* Sources */,
+				0EB0A3C0273C5F2D00603D98 /* Frameworks */,
+				0EB0A3C1273C5F2D00603D98 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "06 Guess the Flag";
-			productName = "02 Guess the Flag";
-			productReference = 0E0D72B527398A0D0097F2F9 /* 06 Guess the Flag.app */;
+			name = "06b Guess the Flag";
+			productName = "06b Guess the Flag";
+			productReference = 0EB0A3C3273C5F2D00603D98 /* 06b Guess the Flag.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0E0D72AD27398A0D0097F2F9 /* Project object */ = {
+		0EB0A3BB273C5F2D00603D98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					0E0D72B427398A0D0097F2F9 = {
+					0EB0A3C2273C5F2D00603D98 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = 0E0D72B027398A0D0097F2F9 /* Build configuration list for PBXProject "06 Guess the Flag" */;
+			buildConfigurationList = 0EB0A3BE273C5F2D00603D98 /* Build configuration list for PBXProject "06b Guess the Flag" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 0E0D72AC27398A0D0097F2F9;
-			productRefGroup = 0E0D72B627398A0D0097F2F9 /* Products */;
+			mainGroup = 0EB0A3BA273C5F2D00603D98;
+			productRefGroup = 0EB0A3C4273C5F2D00603D98 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0E0D72B427398A0D0097F2F9 /* 06 Guess the Flag */,
+				0EB0A3C2273C5F2D00603D98 /* 06b Guess the Flag */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0E0D72B327398A0D0097F2F9 /* Resources */ = {
+		0EB0A3C1273C5F2D00603D98 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E0D72C527398A0F0097F2F9 /* LaunchScreen.storyboard in Resources */,
-				0E0D72C227398A0F0097F2F9 /* Assets.xcassets in Resources */,
-				0E0D72C027398A0D0097F2F9 /* Main.storyboard in Resources */,
+				0EB0A3D3273C5F2F00603D98 /* LaunchScreen.storyboard in Resources */,
+				0EB0A3D0273C5F2F00603D98 /* Assets.xcassets in Resources */,
+				0EB0A3CE273C5F2D00603D98 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0E0D72B127398A0D0097F2F9 /* Sources */ = {
+		0EB0A3BF273C5F2D00603D98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E0D72BD27398A0D0097F2F9 /* ViewController.swift in Sources */,
-				0E0D72B927398A0D0097F2F9 /* AppDelegate.swift in Sources */,
-				0E0D72BB27398A0D0097F2F9 /* SceneDelegate.swift in Sources */,
+				0EB0A3CB273C5F2D00603D98 /* ViewController.swift in Sources */,
+				0EB0A3C7273C5F2D00603D98 /* AppDelegate.swift in Sources */,
+				0EB0A3C9273C5F2D00603D98 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0E0D72BE27398A0D0097F2F9 /* Main.storyboard */ = {
+		0EB0A3CC273C5F2D00603D98 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0E0D72BF27398A0D0097F2F9 /* Base */,
+				0EB0A3CD273C5F2D00603D98 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0E0D72C327398A0F0097F2F9 /* LaunchScreen.storyboard */ = {
+		0EB0A3D1273C5F2F00603D98 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0E0D72C427398A0F0097F2F9 /* Base */,
+				0EB0A3D2273C5F2F00603D98 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -182,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0E0D72DD27398A0F0097F2F9 /* Debug */ = {
+		0EB0A3D5273C5F2F00603D98 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		0E0D72DE27398A0F0097F2F9 /* Release */ = {
+		0EB0A3D6273C5F2F00603D98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -298,7 +282,7 @@
 			};
 			name = Release;
 		};
-		0E0D72E027398A0F0097F2F9 /* Debug */ = {
+		0EB0A3D8273C5F2F00603D98 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -306,7 +290,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "06 Guess the Flag/Info.plist";
+				INFOPLIST_FILE = "06b Guess the Flag/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +301,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.-2-Guess-the-Flag";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.-6b-Guess-the-Flag";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,7 +309,7 @@
 			};
 			name = Debug;
 		};
-		0E0D72E127398A0F0097F2F9 /* Release */ = {
+		0EB0A3D9273C5F2F00603D98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -333,7 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "06 Guess the Flag/Info.plist";
+				INFOPLIST_FILE = "06b Guess the Flag/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -344,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.-2-Guess-the-Flag";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.-6b-Guess-the-Flag";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -355,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0E0D72B027398A0D0097F2F9 /* Build configuration list for PBXProject "06 Guess the Flag" */ = {
+		0EB0A3BE273C5F2D00603D98 /* Build configuration list for PBXProject "06b Guess the Flag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E0D72DD27398A0F0097F2F9 /* Debug */,
-				0E0D72DE27398A0F0097F2F9 /* Release */,
+				0EB0A3D5273C5F2F00603D98 /* Debug */,
+				0EB0A3D6273C5F2F00603D98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0E0D72DF27398A0F0097F2F9 /* Build configuration list for PBXNativeTarget "06 Guess the Flag" */ = {
+		0EB0A3D7273C5F2F00603D98 /* Build configuration list for PBXNativeTarget "06b Guess the Flag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E0D72E027398A0F0097F2F9 /* Debug */,
-				0E0D72E127398A0F0097F2F9 /* Release */,
+				0EB0A3D8273C5F2F00603D98 /* Debug */,
+				0EB0A3D9273C5F2F00603D98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0E0D72AD27398A0D0097F2F9 /* Project object */;
+	rootObject = 0EB0A3BB273C5F2D00603D98 /* Project object */;
 }
