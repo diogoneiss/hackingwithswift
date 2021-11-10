@@ -56,15 +56,31 @@
 		0EB0A3C5273C5F2D00603D98 /* 06b Guess the Flag */ = {
 			isa = PBXGroup;
 			children = (
-				0EB0A3C6273C5F2D00603D98 /* AppDelegate.swift */,
-				0EB0A3C8273C5F2D00603D98 /* SceneDelegate.swift */,
-				0EB0A3CA273C5F2D00603D98 /* ViewController.swift */,
-				0EB0A3CC273C5F2D00603D98 /* Main.storyboard */,
+				0EB0A3DA273C5F8700603D98 /* src */,
+				0EB0A3DB273C5F9300603D98 /* storyboards */,
 				0EB0A3CF273C5F2F00603D98 /* Assets.xcassets */,
-				0EB0A3D1273C5F2F00603D98 /* LaunchScreen.storyboard */,
 				0EB0A3D4273C5F2F00603D98 /* Info.plist */,
 			);
 			path = "06b Guess the Flag";
+			sourceTree = "<group>";
+		};
+		0EB0A3DA273C5F8700603D98 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0EB0A3C6273C5F2D00603D98 /* AppDelegate.swift */,
+				0EB0A3C8273C5F2D00603D98 /* SceneDelegate.swift */,
+				0EB0A3CA273C5F2D00603D98 /* ViewController.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		0EB0A3DB273C5F9300603D98 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0EB0A3CC273C5F2D00603D98 /* Main.storyboard */,
+				0EB0A3D1273C5F2F00603D98 /* LaunchScreen.storyboard */,
+			);
+			path = storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
